@@ -1,38 +1,484 @@
-.App {
-  text-align: center;
+body{
+	color: #303030;
+	font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header1{
+	font-size: 12px;
+	height: 54px;
+	background-color: #262626;
+	z-index: 100;
+	line-height: 54px;
+	position: fixed;
+	width: 100%;
+	/* margin-bottom: 50px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.preview__envato-logo {
+    float: left;
+    padding: 0 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.preview__actions {
+    float: right;
 }
 
-.App-link {
-  color: #61dafb;
+.preview__action--buy{
+    display: inline-block;
+    padding: 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.e-btn--3d.-color-primary {
+    box-shadow: 0 2px 0 #6f9a37;
+    position: relative;
+}
+
+ .-color-primary.e-btn--3d, .-color-primary {
+    background-color: #82b440;
+}
+
+.e-btn--3d {
+    font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+	text-decoration: none;
+}
+
+ .e-btn--3d{
+    color: white;
+}
+
+.preview__envato-logo a {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    text-indent: -9999px;
+    height: 18px;
+    width: 152px;
+    background: url(https://public-assets.envato-static.com/assets/logos/envato_market-a5ace93f8482e885ae008eb481b9451d379599dfed24868e52b6b2d66f5cf633.svg);
+        background-size: auto;
+    background-size: 152px 18px;
+}
+
+
+
+
+.header2{
+	background: #3f7d20;
+	color: #fff;
+	font-size: 12px;
+	padding: 15px 0;
+	/* margin-top: 20px; */
+}
+
+.header2-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.header2-start{
+	flex-basis: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.phone{
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.mail{
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.header2-start a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.header2-end{
+	flex-basis: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.header3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.header3-logo{
+	flex-basis: 100%;
+	text-align: center;
+	padding: 15px;
+}
+
+.navlinksright{
+	display: none;
+}
+
+.navlinksright a{
+	text-decoration: none;
+	color: black;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 5px;
+	z-index: 1;
+	margin-top: 15px;
+	/* overflow: visible; */
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+	/* overflow: visible; */
+}
+
+.droplink{
+	padding: 10px 0px;
+	/* overflow: visible; */
+}
+
+.navlinkhead{
+	padding-bottom: 10px;
+	border-bottom: 4px solid #3f7d20;
+	border-radius: 2px;
+}
+
+.navlinksright a:hover{
+	padding-bottom: 10px;
+	border-bottom: 4px solid #3f7d20;
+	border-radius: 2px;
+	transition-duration: 0.3s;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+	width: 110px;
+}
+
+.topnav #myLinks {
+	display: none;
+}
+
+.topnav a {
+	color: white;
+	padding: 19px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.topnav a.icon {
+	background: black;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+.herosection{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.shopingpdt-menu{
+	width: 80vw;
+	display: grid;
+	margin: auto;
+    grid-template-columns: auto auto auto ;
+	font-size: 16px;
+	border: 1px solid #eee;
+	border-radius: 30px;
+}
+
+.heromenulink1{
+	cursor: pointer;
+	position: relative;
+	padding: 18px 20px;
+	text-align: center;
+	border-bottom: 4px solid #77bb17;
+	/* border-bottom-left-radius: 30px; */
+}
+
+.heromenulink2, .heromenulink3, .heromenulink5{
+	cursor: pointer;
+	position: relative;
+	padding: 18px 20px;
+	border-left: 1px solid #eee;
+	text-align: center;
+}
+.heromenulink4{
+	cursor: pointer;
+	position: relative;
+	padding: 18px 20px;
+	text-align: center;
+}
+.heromenulink2, .heromenulink3{
+	border-bottom: 1px solid #eee;
+}
+
+.herocontent{
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	grid-column-gap: 1vw;
+}
+
+.heromenulink2:hover, .heromenulink3:hover,.heromenulink1:hover, .heromenulink5:hover{
+	border-bottom: 4px solid #77bb17;
+}
+
+.heromenulink4:hover{
+	border-bottom: 4px solid #77bb17;
+	border-bottom-left-radius: 30px;
+}
+
+/* .heromenulink5:hover{
+	border-bottom-right-radius: 30px;
+} */
+
+
+.cardx{
+	width: 180px;
+	background-color: #F0F3F4;
+	padding: 20px;
+	box-shadow: 0px 0px 20px -12px;
+	margin: 12px;
+}
+
+.cardbtn{
+	background-color: #28a745;
+	font-size: .875rem;
+	color: white;
+	padding: 5px 10px;
+	border-radius: .2rem;
+	border-color: #28a745;
+	margin-left: 4px;
+}
+
+.cardx:hover{
+	box-shadow:0 0 10px 5px #05ff19;
+	transition: 0.3s;
+}
+  
+.getupdatearea{
+	background-image: url("./Mycomponent/connectback.jpg");
+	color: white;
+	font-weight: 600;
+	padding: 15px 0px;
+	padding-bottom: 30px;
+}
+
+.updateareatxt{
+	text-align: center;
+}
+
+.updatearea-inp{
+	/* display: block;
+	margin: auto; */
+	/* text-align: center; */
+	background: rgba(255, 253, 253, 0.4);
+	width: max-content;
+	margin: auto;
+	border-radius: 30px;
+}
+
+input {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: none;
+}
+
+.updatearea-inp button{
+	background-color: #3f7d20;
+	padding: 15px 20px;
+	border-radius: 30px;
+	color: white;
+	font-size: 16px;
+}
+
+.updatearea-inp input{
+	width: 30vw;
+	padding: 15px 30px;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.005);
+	outline: none;
+	border-radius: 30px;
+}
+
+.footer-aboutus{
+	padding: 20px 0px;
+	width: 90%;
+	margin: auto;
+}
+
+.aboutustxt{
+	font-size: 13px;
+    font-weight: 300;
+	color: #303030;
+}
+
+.widget-icon a {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-right: 10px;
+	color: black;
+	
+}
+
+.widget-icon a:hover{
+	background-color: rgb(97, 180, 14);
+	color: white;
+	transition: 0.3s;
+}
+
+
+@media(min-width:330px)
+{
+	.header2-start{
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+	.phone{
+		flex-basis: auto;
+		padding-right: 10px;
+		border-right: 1px solid white;
+	}
+	.mail{
+		flex-basis: auto;
+		margin-left: 10px;
+	}
+}
+
+@media(min-width:370px)
+{
+	.header3{
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+	.header3-logo{
+		flex-basis: 40%;
+	}
+}
+
+@media(min-width:500px)
+{
+	.herocontent{
+		grid-template-columns: auto auto;
+	}
+	
+}
+
+@media(min-width:550px)
+{
+	.header2-row{
+		flex-wrap: nowrap;
+		/* justify-content: space-around; */
+	}
+	.header2-end{
+		margin-top: 0px;
+	}
+	.footer-aboutus{
+		width: 500px;
+		margin: auto;
+		padding: 10px;
+	}
+}
+
+@media(min-width:750px)
+{
+	.topnav{
+		display: none;
+	}
+	.header3{
+		display: block;
+		width: 80%;
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.navlinksright{
+		display: block;
+		float: right;
+	}
+	.navlinksright a{
+		margin-right: 2vw;
+	}
+	.logoleft{
+		float: left;
+	}
+	.herocontent{
+		grid-template-columns: auto auto auto;
+	}
+	.shopingpdt-menu{
+		grid-template-columns: auto auto auto auto auto;
+	}
+	.heromenulink1{
+		cursor: pointer;
+		position: relative;
+		padding: 18px 20px;
+		text-align: center;
+		border-bottom: 4px solid #77bb17;
+		border-bottom-left-radius: 30px;
+	}
+	
+	.heromenulink2, .heromenulink3, .heromenulink4, .heromenulink5{
+		cursor: pointer;
+		position: relative;
+		padding: 18px 20px;
+		border-left: 1px solid #eee;
+		text-align: center;
+	}
+	.heromenulink5:hover{
+		border-bottom-right-radius: 30px;
+	}
+	.heromenulink4:hover{
+		border-bottom: 4px solid #77bb17;
+		border-bottom-left-radius: 30px;
+	}
+	.heromenulink4:hover{
+		border-bottom: 4px solid #77bb17;
+		border-bottom-left-radius: 0px;
+	}
+	
+}
+
+
+@media(min-width:1050px)
+{
+	.herocontent{
+		grid-template-columns: auto auto auto auto;
+	}
+	.shopingpdt-menu{
+		width: 60vw;
+	}
 }

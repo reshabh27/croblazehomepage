@@ -1,0 +1,96 @@
+
+
+.newpdts{
+	background-color: #f9f9f9;
+}
+
+.newpdtbox{
+	width: 90%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.newpdtscontent{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+.newpdtlogo{
+	display: none;
+	flex-basis: 40%;
+}
+
+.newpdtcoursel{
+	flex-basis: 100%;
+	height: 60vh;
+	overflow-y: auto;
+}
+
+
+.verticalcards{
+	display: flex;
+	padding: 15px;
+	background-color: white;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+.verticalcards:hover .card2content{
+	background-color: #3f7d20;
+	color: white;
+}
+
+.verticalcards:hover{
+	background-color: #3f7d20;
+}
+
+.verticalcards:hover .card2btn{
+	display: flex;
+}
+.card2imgst{
+	width: 100%;
+}
+
+.card2content{
+	color: black;
+	margin-left: 15px;
+}
+
+.card2img{
+	flex-basis: 25%;
+}
+
+.card2btn{
+	margin-left: auto;
+	display: none;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.card2btn button{
+	background-color: #77bb17;
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+}
+
+@media(min-width:600px)
+{
+	.card2img{
+		flex-basis: 15%;
+	}
+}
+
+@media(min-width:980px)
+{
+	.newpdtbox{
+		width: 80%;
+	}
+	.newpdtlogo{
+		display: block;
+	}
+	.newpdtcoursel{
+		margin-left: 20px;
+	}
+}

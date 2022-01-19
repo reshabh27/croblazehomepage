@@ -1,0 +1,202 @@
+
+import './App.css';
+import "./Mycomponent/responsive.css"
+import "./Mycomponent/bootstrap.css"
+import "./Mycomponent/style.css"
+import "./Mycomponent/slicknav.css"
+
+
+function App() {
+	return (
+		<div className="App">
+
+
+			<header className="header-area ptb-15">
+				<div className="container">
+					<div className="row">
+						<div className="col-md-7">
+							<div className="header-left-content">
+								<ul>
+									<li><a href="#"> &#xf095; 0123 4567 8913</a></li>
+									<li><a href="#"> &#xf0e0; example@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<div className="col-md-5">
+							<div className="header-right-content">
+								<ul>
+									<li><a href="#" className="krishok-cart"><i className="fa fa-shopping-cart"></i> <span>3</span></a></li>
+									<li><a href="#" className="popup-show">Login</a>
+										<div className="login-popup login-form contact-form">
+											<h4>Login</h4>
+											<form action="#" data-bitwarden-watching="1">
+												<div className="row">
+													<div className="col-sm-12">
+														<div className="contact-container">
+															<input type="email" placeholder="Email Address" />
+															<i className="fa fa-envelope"></i>
+														</div>
+													</div>
+													<div className="col-sm-12 mb-15">
+														<div className="contact-container">
+															<input type="password" placeholder="Password" />
+															<i className="fa fa-eye"></i>
+														</div>
+													</div>
+													<div className="col-sm-6 text-left mb-15">
+														<input type="checkbox" />
+														<p>Remember me</p>
+													</div>
+													<div className="col-sm-6 text-right mb-15">
+														<div className="popup-light">
+															<p>Forget Password ?</p>
+														</div>
+													</div>
+													<div className="col-sm-12 mb-30">
+														<button className="krishok-btn">LOGIN</button>
+													</div>
+													<div className="col-sm-12 mb-15">
+														<div className="sign-with">
+															<p>Or Sign In With</p>
+														</div>
+													</div>
+													<div className="col-sm-12">
+														<a href="#" className="login-with"><i className="fa fa-facebook"></i></a>
+														<a href="#" className="login-with"><i className="fa fa-twitter"></i></a>
+													</div>
+													<div className="col-sm-12 mt-30">
+														<p>Don’t Have an Account ? <a href="#" className="registration-form-show">Create Now</a></p>
+													</div>
+												</div>
+											</form>
+											<div className="popup-close"><i className="fa fa-close"></i></div>
+										</div>
+										<div className="login-popup registration-form contact-form">
+											<h4>Create Account</h4>
+											<form action="#" data-bitwarden-watching="1">
+												<div className="row">
+													<div className="col-sm-12">
+														<div className="contact-container">
+															<input type="text" placeholder="Username" />
+															<i className="fa fa-user"></i>
+														</div>
+													</div>
+													<div className="col-sm-12">
+														<div className="contact-container">
+															<input type="email" placeholder="Email Address" />
+															<i className="fa fa-envelope"></i>
+														</div>
+													</div>
+													<div className="col-sm-12">
+														<div className="contact-container">
+															<input type="password" placeholder="Password" />
+															<i className="fa fa-eye"></i>
+														</div>
+													</div>
+													<div className="col-sm-12 mb-15">
+														<input type="password" placeholder="Retype Password" />
+													</div>
+													<div className="col-sm-12 text-left mb-15">
+														<input type="checkbox" />
+														<p>Agree with <span>terms and condition</span></p>
+													</div>
+													<div className="col-sm-12 mb-20">
+														<button className="krishok-btn">Create Account</button>
+													</div>
+													<div className="col-sm-12">
+														<p>Already Have an Account ?  <a href="#" className="login-form-show">Login Now</a></p>
+													</div>
+												</div>
+											</form>
+											<div className="popup-close"><i className="fa fa-close"></i></div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			{/* header area end */}
+			{/* menu area start  */}
+			<div className="menubar">
+				<div className="container">
+					<div className="row">
+						<div className="col-md-2 col-sm-6">
+							<div className="logo">
+								<a href="#index"><img src="a_data/logo.png" alt="logo" /></a>
+							</div>
+						</div>
+						<div className="col-md-10 col-sm-6">
+							<div className="responsive-menu"><div className="slicknav_menu"><a href="#" aria-haspopup="true" role="button" Index="0" className="slicknav_btn slicknav_collapsed" style={{ outline: "currentcolor none medium" }}><span className="slicknav_menutxt">MENU</span><span className="slicknav_icon"><span className="slicknav_icon-bar"></span><span className="slicknav_icon-bar"></span><span className="slicknav_icon-bar"></span></span></a><ul className="slicknav_nav slicknav_hidden" style={{ display: "none" }} aria-hidden="true" role="menu">
+								<li className="active"><a href="#index" role="menuitem" tabIndex="-1">Home</a></li>
+								<li><a href="#about-us" role="menuitem" tabIndex="-1">About Us</a></li>
+								<li><a href="#products" role="menuitem" tabIndex="-1">Products</a></li>
+								<li className="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabIndex="-1" className="slicknav_item slicknav_row" style={{ outline: "currentcolor none medium" }}><a href="#" tabIndex="-1">Pages <i className="fa fa-angle-down"></i></a>
+									<span className="slicknav_arrow">►</span></a><ul role="menu" className="slicknav_hidden" style={{ display: "none" }} aria-hidden="true">
+										<li><a href="#faq" role="menuitem" tabIndex="-1">FAQ</a></li>
+										<li><a href="#gallery" role="menuitem" tabIndex="-1">Gallery</a></li>
+										<li><a href="#cart" role="menuitem" tabIndex="-1">Cart</a></li>
+										<li><a href="#checkout" role="menuitem" tabIndex="-1">Checkout</a></li>
+									</ul>
+								</li>
+								<li><a href="#blog" role="menuitem" tabIndex="-1">Blog</a></li>
+								<li><a href="#contact-us" role="menuitem" tabIndex="-1">Contact</a></li>
+								<li>
+									<button type="submit" className="toggle-pade">
+										<i className="fa fa-search"></i>
+									</button>
+									<form className="navbar-form form-box" role="search">
+										<input type="text" placeholder="Search" />
+									</form>
+								</li>
+							</ul></div></div>
+							<div className="mainmenu">
+								<ul id="primary-menu">
+									<li className="active"><a href="#index">Home</a></li>
+									<li><a href="#about-us">About Us</a></li>
+									<li><a href="#products">Products</a></li>
+									<li><a href="#">Pages <i className="fa fa-angle-down"></i></a>
+										<ul>
+											<li><a href="#faq">FAQ</a></li>
+											<li><a href="#gallery">Gallery</a></li>
+											<li><a href="#cart">Cart</a></li>
+											<li><a href="#checkout">Checkout</a></li>
+										</ul>
+									</li>
+									<li><a href="#blog">Blog</a></li>
+									<li><a href="#contact-us">Contact</a></li>
+									<li>
+										<button type="submit" className="toggle-pade">
+											<i className="fa fa-search"></i>
+										</button>
+										<form className="navbar-form form-box" role="search">
+											<input type="text" placeholder="Search" />
+										</form>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* <!-- get quote area start --> */}
+			<section className="get-quote ptb-50">
+				<div className="container">
+					<div className="row">
+						<div className="col-lg-12">
+							<h2>Get Update About Products</h2>
+							<form action="#">
+								<input type="text" placeholder="Email Address" />
+								<button type="submit">SUBSCRIBE</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			{/* <!-- get quote area end --> */}
+		</div>
+	);
+}
+
+export default App;
