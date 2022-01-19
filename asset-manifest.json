@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/croblazehomepage/static/css/main.c8ca1319.css",
+    "main.js": "/croblazehomepage/static/js/main.13aee711.js",
+    "static/js/787.0b1601a5.chunk.js": "/croblazehomepage/static/js/787.0b1601a5.chunk.js",
+    "static/media/pdt3.jpg": "/croblazehomepage/static/media/pdt3.f7d4147360a8b3f575a5.jpg",
+    "static/media/pdt4.jpg": "/croblazehomepage/static/media/pdt4.04e3b0f58e89f1fb16c7.jpg",
+    "static/media/carosuel2.jpg": "/croblazehomepage/static/media/carosuel2.df219925e1af05b48809.jpg",
+    "static/media/carousel1.jpg": "/croblazehomepage/static/media/carousel1.340d683b97e24f5882e9.jpg",
+    "static/media/newproduct-img.jpg": "/croblazehomepage/static/media/newproduct-img.42e53b601f1f41cb9730.jpg",
+    "static/media/pdt1.jpg": "/croblazehomepage/static/media/pdt1.3364d72106525aa7e951.jpg",
+    "static/media/logo.png": "/croblazehomepage/static/media/logo.ffb6234229d98bca65ca.png",
+    "static/media/carosuel3.jpg": "/croblazehomepage/static/media/carosuel3.bfe1d51170c948ca1c17.jpg",
+    "static/media/connectback.jpg": "/croblazehomepage/static/media/connectback.48de4c26a1ddb1fe12eb.jpg",
+    "static/media/pdt2.jpg": "/croblazehomepage/static/media/pdt2.410dd8cb74e5bc9c97d5.jpg",
+    "static/media/pdt5.jpg": "/croblazehomepage/static/media/pdt5.e29023e9c0ddf155930d.jpg",
+    "static/media/pdt8.jpg": "/croblazehomepage/static/media/pdt8.111cbc90281e6edee942.jpg",
+    "static/media/pdt7.jpg": "/croblazehomepage/static/media/pdt7.76362f15e4b3873afafe.jpg",
+    "static/media/envatomarket-logo2.jpg": "/croblazehomepage/static/media/envatomarket-logo2.ae1a6d5e7b78fc9d0b0c.jpg",
+    "static/media/pdt6.jpg": "/croblazehomepage/static/media/pdt6.7d21aa224411e53b3be7.jpg",
+    "index.html": "/croblazehomepage/index.html",
+    "main.c8ca1319.css.map": "/croblazehomepage/static/css/main.c8ca1319.css.map",
+    "main.13aee711.js.map": "/croblazehomepage/static/js/main.13aee711.js.map",
+    "787.0b1601a5.chunk.js.map": "/croblazehomepage/static/js/787.0b1601a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8ca1319.css",
+    "static/js/main.13aee711.js"
+  ]
+}
